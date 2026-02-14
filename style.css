@@ -24,6 +24,11 @@ color: var(--text);
 line-height: 1.7;
 }
 
+.fade-in img{
+  width: 30%;
+  height: 10%;
+}
+
 
 /* ---------- HEADER ---------- */
 /* header {
@@ -634,6 +639,14 @@ transition: transform 0.3s ease, box-shadow 0.3s ease;
 .cta a:hover {
 transform: translateY(-3px);
 box-shadow: 0 10px 30px rgba(34, 211, 238, 0.4);
+}
+
+.primary-cta img {
+width: 20px;
+height: 20px;
+object-fit: contain;
+background-color: white;
+border-radius: 50%;
 }
 
 /* .sticky-contact {
