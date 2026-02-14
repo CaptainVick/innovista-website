@@ -25,8 +25,8 @@ line-height: 1.7;
 }
 
 .fade-in img{
-  width: 20%;
-  height: 5%;
+  width: 25%;
+  height: 10%;
 }
 
 
@@ -75,11 +75,11 @@ content: '';
 position: absolute;
 top: -50%;
 left: -50%;
-width: 330%;
+width: 350%;
 height: 200%;
 background: rgba(0, 0, 0, 0.89);
 border-radius: 50%;
-animation: rotate 25s linear infinite;
+animation: rotate 15s linear infinite;
 z-index: 1;
 }
 
@@ -139,7 +139,7 @@ nav {
 position: sticky;
 top: 0;
 z-index: 1000;
-background: linear-gradient(135deg, #000000, #f8aa00c4);
+background: linear-gradient(135deg, #4968f0ce, #f8aa00c4);
 backdrop-filter: blur(10px);
 display: flex;
 justify-content: center;
