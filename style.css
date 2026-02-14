@@ -30,32 +30,6 @@ line-height: 1.7;
 }
 
 
-/* ---------- HEADER ---------- */
-/* header {
-min-height: 90vh;
-background: radial-gradient(circle at top right, #6366f1, var(--primary));
-color: #fff;
-display: flex;
-align-items: center;
-justify-content: center;
-text-align: center;
-padding: 40px 20px;
-}
-
-
-header h1 {
-font-size: clamp(2.5rem, 5vw, 3.5rem);
-margin-bottom: 16px;
-font-weight: 800;
-letter-spacing: -0.5px;
-}
-header p {
-max-width: 720px;
-font-size: 1.15rem;
-opacity: 0.95;
-margin: auto;
-} */
-
 header {
 min-height: 15vh;
 display: flex;
