@@ -39,7 +39,7 @@ text-align: center;
 padding: 60px 20px;
 position: relative;
 overflow: hidden;
-background: linear-gradient(135deg, #000000, #f8aa00ab);
+background: linear-gradient(135deg, #000000b9, #f8aa0098);
 color: #fff;
 }
 
@@ -49,9 +49,9 @@ content: '';
 position: absolute;
 top: -50%;
 left: -50%;
-width: 350%;
-height: 200%;
-background: rgba(0, 0, 0, 0.89);
+width: 200%;
+height: 150%;
+background: rgba(0, 0, 0, 0.103);
 border-radius: 50%;
 animation: rotate 15s linear infinite;
 z-index: 1;
@@ -113,7 +113,7 @@ nav {
 position: sticky;
 top: 0;
 z-index: 1000;
-background: linear-gradient(135deg, #4968f0ce, #f8aa00c4);
+background: linear-gradient(135deg, #00000077, #f8aa00ad);
 backdrop-filter: blur(10px);
 display: flex;
 justify-content: center;
