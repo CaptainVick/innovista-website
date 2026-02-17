@@ -39,29 +39,30 @@ text-align: center;
 padding: 60px 20px;
 position: relative;
 overflow: hidden;
-background: linear-gradient(135deg, #000000b9, #f8aa0098);
+background-color: black;
+/* background: linear-gradient(135deg, #000000b9, #f8aa0098); */
 color: #fff;
 }
 
 
-header::before {
+/* header::before {
 content: '';
 position: absolute;
 top: -50%;
 left: -50%;
-width: 200%;
+width: 350%;
 height: 150%;
-background: rgba(0, 0, 0, 0.103);
+background: rgba(206, 138, 12, 0.39);
 border-radius: 50%;
 animation: rotate 15s linear infinite;
 z-index: 1;
-}
+} */
 
 
-@keyframes rotate {
+/* @keyframes rotate {
 from { transform: rotate(0deg); }
 to { transform: rotate(360deg); }
-}
+} */
 
 
 header > div {
@@ -90,7 +91,10 @@ margin: auto;
 /* Typing animation */
 #typing-text {
 display: inline-block;
-border-right: 3px solid #fff;
+border-right: 3px solid;
+background: linear-gradient(390deg, #0080e9, #f8aa00);
+-webkit-background-clip:text;
+-webkit-text-fill-color: transparent;
 white-space: normal;
 overflow: visible;
 font-size: 1.2rem;
@@ -113,7 +117,8 @@ nav {
 position: sticky;
 top: 0;
 z-index: 1000;
-background: linear-gradient(135deg, #00000077, #f8aa00ad);
+background-color: black;
+/* background: linear-gradient(135deg, #00000077, #f8aa00ad); */
 backdrop-filter: blur(10px);
 display: flex;
 justify-content: center;
@@ -125,7 +130,7 @@ border-bottom: 1px solid #e5e7eb;
 
 nav a {
 text-decoration: none;
-color: var(--secondary);
+color: rgb(255, 196, 3);
 font-weight: 600;
 font-size: 0.95rem;
 position: relative;
@@ -139,7 +144,7 @@ left: 0;
 bottom: -6px;
 width: 0;
 height: 2px;
-background: #87ce35;
+background: #ffbb00;
 transition: width 0.3s ease;
 }
 
